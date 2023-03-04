@@ -26,11 +26,15 @@ p {
 
 .logo {
     width: 200px;
-
 }
 
 .logo img {
     width: 100%;
+}
+
+.logo img,
+.footer-logo img {
+    filter: grayscale(.4);
 }
 
 .footer-logo {
